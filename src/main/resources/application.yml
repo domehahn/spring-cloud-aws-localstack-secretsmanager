@@ -1,0 +1,12 @@
+aws:
+  access:
+    key:
+      id: test
+  secret:
+    access:
+      key: test
+  url: http://localhost:4566
+spring:
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
